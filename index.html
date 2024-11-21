@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="Style/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav class="navbar-container">
+      <div class="logo">
+        <img src="Assests/profile.jpg" alt="logo">
+        <h2>Nicky</h2>
+      </div>
+
+      <div class="navigator">
+
+        <input type="checkbox" class="toggle-menu">
+        <div class="hamburger"></div>
+
+      <ul class="menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Favorite</a></li>
+        <li><a href="">Project</a></li>
+        <li><a href="">Activity</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Others</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container1">
+    
+      <div class="name-container">
+      <h1>Hi,</h1>
+        <h1 class="h1">I'm <span>Jim Nick</span></h1>
+        <p>
+            A Second Year Student In UIC!
+        </p>
+        </div>
+      <img src="Assests/profile1.png" alt="">
+    </div>
+
+    <div class="container2">
+      <div class="aboutMeHeader">
+        <h1>ABOUT ME</h1>
+      
+      <div class="aboutMeBody">
+        <p>
+          I am a hard-working and driven individual who isn't afraid to take on challenges. 
+          I'm passionate about my studies and always strive to achieve my goals.
+          I would decribe myself as an open and honest person who believes in looking beyond appearances and values fairness in everything I do.
+        </p>
+      </div>
+        
+        <div class="list-container">
+          <div class="list1">
+            <li>Full Name</li>
+            <li>Birthdate</li>
+            <li>School</li>
+            <li>Year level</li>
+            <li>Section</li>
+            <li>Gmail</li>
+            <li>Address</li>
+          </div>
+          <div class="list2">
+            <li>:&ensp; Jim Nick Fernandez Quezada</li>
+            <li>:&ensp; May 27, 2002</li>
+            <li>:&ensp; University of Immaculate Conception</li>
+            <li>:&ensp; Second Year</li>
+            <li>:&ensp; 2A</li>
+            <li>:&ensp; jquezada_230000000642@uic.edi.ph</li>
+            <li>:&ensp; 123 Eden Street, Ma-a, Davao City</li>
+          </div>
+        </div>
+        <div class="hobbies-container">
+          <h3>Hobbies & Interests</h1>
+            <div class="hobbies"> 
+              <div class="div1">
+                <img src="Assests/music-solid-24.png" alt="Classical Music">
+                <h5>Music</h5>
+              </div>
+              <div class="div2">
+                <img src="Assests/yarn-512.png" alt="Knitting Yarn">
+                <h5>Crochet</h5>
+              </div>
+              <div class="div3">
+                <img src="Assests/luffy.png" alt="Anime Icon">
+                <h5>Anime</h5>
+              </div>
+              <div class="div4">
+                <img src="Assests/onlineG.png" alt="Online Icon">
+                <h5>Games</h5>
+              </div>
+            </div>
+        </div>
+        
+      </div>
+      <div class="logo2">
+        <img src="Assests/profile2.jpg" alt="Clear Profile">
+      </div>
+    </div>
+
+    <div class="container3">
+      <div class="aboutMeHeader1">
+        <h1>Projects</h1>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Visual Design</h3>
+              <p>Masterizing on the Photoshop</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>System GUI Design</h3>
+              <p>Making a Prototype for fuuture System</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>POS GUI Design using Java</h3>
+              <p>Making a functional POS System</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-img-container">
+          <!-- First Box: Image img -->
+          <div class="img-container">
+            <div class="img-content">
+              <div class="img-item active"><img src="Assests/pinkspider.jpg"></div>
+              <div class="img-item"><img src="Assests/medifind.png" alt=""></div>
+              <div class="img-item"><img src="Assests/GUI.png" alt=""></div>
+              <div class="img-item"><img src="Assests/pathguide.png" alt=""></div>
+            </div>
+            <button class="img-display prev" onclick="prevSlide()">&#10094;</button>
+            <button class="img-display next" onclick="nextSlide()">&#10095;</button>
+          </div>
+      </div>
+      
+    </div>
+
+    <div class="container4">
+        <div class="image-container">
+          <h1>Random User Fetcher</h1>
+          <img id="userAvatar" src="" alt="User Avatar" width="100" />
+          <p id="userName">Loading...</p>
+        <button class="btn" onclick="fetchRandomUser()">Get Another User</button>
+        </div>
+        <div class="web-img">
+          <h1>Websites</h1>
+          <div class="web">
+            <img src="Assests/nyfw.png" alt="">
+            <img src="Assests/olivia.png" alt="">
+            <img src="Assests/kale.png" alt="">
+          </div>
+        </div>
+        
+    </div>
+  </main>
+
+  <footer class="footer">
+    <a href="https://www.facebook.com/jimmaynahze" class="facebook" target="_blank" alt="Facebook Icon"><i class='bx bxl-facebook-circle' ></i></a>
+    <a href="https://github.com/JNQuez27/JNQuez27.github.io" class="github" target="_blank" alt="Github Icon"><i class='bx bxl-github' ></i></i></a>
+    <a href="https://www.youtube.com/@jimnickquezada1784" class="youtube" target="_blank" alt="Youtube Icon"><i class='bx bxl-youtube' ></i></a>
+    <p>All Rights Reserved</p>
+    <p>Quezada</p>
+  </footer>
+
+<script src="Script/script.js"></script>
+</body>
+</html>
