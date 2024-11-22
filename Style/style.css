@@ -682,4 +682,7 @@ footer {
     .project-img-container {
         margin: 0;
     }
+    .container4 {
+        height: auto;
+    }
 }
